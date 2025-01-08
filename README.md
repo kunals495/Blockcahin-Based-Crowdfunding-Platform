@@ -1,66 +1,57 @@
-# How to Build an Awesome Web3 Crowd-Funding Platform with React, Solidity, and CometChat
 
-Read the full tutorial here: [**>> How to Build an Awesome Web3 Crowd-Funding Platform with React, Solidity, and CometChat**](https://daltonic.github.io)
 
-This example shows How to Build an Awesome Web3 Crowd-Funding Platform with React, Solidity, and CometChat:
+# **Blockchain-Based Crowdfunding Platform**
 
-![Genesis Project](./screenshots/0.gif)
-<center><figcaption>Genesis Project</figcaption></center>
+## **Overview**  
+This project is a decentralized **crowdfunding platform** built on the Ethereum blockchain. It leverages **smart contracts** written in Solidity to ensure transparency, low transaction fees, and greater control for fundraisers and backers. Unlike traditional crowdfunding platforms, this decentralized application (DApp) eliminates the reliance on third-party intermediaries, addressing common criticisms such as high management fees and lack of transparency.
 
-![Genesis Project](./screenshots/1.gif)
-<center><figcaption>Back Project</figcaption></center>
+The platform provides an intuitive **React-based frontend** for users to create and browse campaigns, make contributions, and interact with smart contracts using **MetaMask**.
 
-## Technology
 
-This demo uses:
+## **Features**  
+1. **Decentralized Crowdfunding**:  
+   - Enables users to create and manage fundraising campaigns.  
+   - Allows backers to contribute funds securely using the Ethereum blockchain.  
 
-- Metamask
-- Hardhat
-- Infuria
-- ReactJs
-- Tailwind CSS
-- CometChat
-- Solidity
-- EthersJs
-- Faucet
+2. **Smart Contract Functionality**:  
+   - Transparent and immutable campaign logic.  
+   - Fundraisers can make withdrawal requests, subject to backer approvals.  
 
-## Running the demo
+3. **Frontend Interface**:  
+   - Intuitive and user-friendly React web application.  
+   - Displays active campaigns and their statuses in real-time.  
 
-To run the demo follow these steps:
+4. **Blockchain Integration**:  
+   - Interaction with the Ethereum blockchain via **Web3.js**.  
+   - Transactions are secured through MetaMask.  
 
-1. Clone the project with the code below.
-    ```sh
 
-    # Make sure you have the above prerequisites installed already!
-    git clone https://github.com/Daltonic/genesis PROJECT_NAME
-    cd PROJECT_NAME # Navigate to the new folder.
-    yarn install # Installs all the dependencies.
-    ```
-2. Create an Infuria project, copy and paste your key in the spaces below.
-3. Update the `.env` file with the following details.
-    ```sh
-    ENDPOINT_URL=<RPC_URL>
-    SECRET_KEY=<SECRET_PHRASE>
-    DEPLOYER_KEY=<YOUR_PRIVATE_KEY>
-    ```
-2. Create a CometChat project, copy and paste your key in the spaces below.
-3. Run the app using `yarn start`
-<br/>
+## **Tech Stack**  
+### **Smart Contracts**  
+- **Language:** Solidity (compiled and tested using Remix IDE and Truffle).  
+- **Blockchain Network:** Ethereum (local development tested with Ganache).  
+- **Key Features:**  
+  - Campaign creation and management.  
+  - Secure handling of contributions and withdrawals.  
 
-If your confuse about the installation, check out this **TUTORIAL** to see how you should run it.
+### **Frontend**  
+- **Framework:** React.js  
+- **Library:** Web3.js for blockchain interaction.  
+- **Wallet Integration:** MetaMask for handling transactions.  
 
-Questions about running the demo? [Open an issue](https://github.com/Daltonic/genesis/issues). We're here to help ✌️
 
-## Useful links
+## **Screenshots**  
+![Screenshot 2024-04-25 033317](https://github.com/user-attachments/assets/38f38b15-134a-4967-906c-782b09c959c7)
+![Screenshot 2024-04-25 033405](https://github.com/user-attachments/assets/3ebe9888-1104-443f-82f3-296373867b0b)
+![Screenshot 2024-04-25 034059](https://github.com/user-attachments/assets/3ead0ebc-e806-456b-b1d1-68912e2bbfcb)
 
-- 🏠 [Website](https://daltonic.github.io/)
-- ⚽ [Metamask](https://metamask.io/)
-- 🚀 [Remix Editor](https://remix.ethereum.org/)
-- 💡 [Hardhat](https://hardhat.org/)
-- 📈 [Infuria](https://infura.io/)
-- 🔥 [ReactJs](https://reactjs.org/)
-- 🐻 [Solidity](https://soliditylang.org/)
-- 👀 [EthersJs](https://docs.ethers.io/v5/)
-- 🎅 [Faucet](https://faucets.chain.link/rinkeby)
-- 🤖 [CometChat](https://cometchat.com/)
-- ✨ [Live Demo](https://genesis-45443.web.app/)
+![Screenshot 2024-04-25 033627](https://github.com/user-attachments/assets/cc9a9f1e-46b4-4aed-a576-a1bb62406fc6)
+![Screenshot 2024-04-25 033846](https://github.com/user-attachments/assets/d5a9a45b-7588-4711-9248-899a6f75aa5c)
+
+
+
+
+## **Acknowledgments**  
+This project represents a significant milestone in my academic journey and serves as a demonstration of my skills in blockchain development, smart contract programming, and modern web development frameworks.  
+
+Feel free to explore the project and contribute to its development!  
